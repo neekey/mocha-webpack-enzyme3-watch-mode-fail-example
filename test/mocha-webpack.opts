@@ -4,4 +4,4 @@
 --require test/setup.js
 --require source-map-support/register
 --webpack-config ./test/webpack.config.test.js
-src/**/*.spec.js
+test/tests/*.spec.js

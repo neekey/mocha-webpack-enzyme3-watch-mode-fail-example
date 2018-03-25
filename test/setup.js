@@ -1,8 +1,4 @@
 require('babel-polyfill');
-var enzyme = require('enzyme');
-var Adapter = require('enzyme-adapter-react-16');
-
-enzyme.configure({ adapter: new Adapter() });
 
 const jsdom = require('jsdom').jsdom;
 global.document = jsdom('<!doctype html><html><body></body></html>');
